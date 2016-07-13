@@ -2991,15 +2991,15 @@
 		/* Basic */
 
 			h1 {
-				font-size: 2em;
-			}
-
-			h2 {
 				font-size: 1.75em;
 			}
 
-			h3 {
+			h2 {
 				font-size: 1.5em;
+			}
+
+			h3 {
+				font-size: 1.2em;
 			}
 
 		/* Section/Article */
@@ -3009,7 +3009,7 @@
 			}
 
 			header.major h2 {
-				font-size: 1.35em;
+				font-size: 2em;
 			}
 
 		/* List */
