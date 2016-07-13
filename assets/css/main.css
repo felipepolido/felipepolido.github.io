@@ -1621,11 +1621,13 @@
 	}
 
 	h2 {
+		color: #58101d;
 		font-size: 1.75em;
 		line-height: 1.5em;
 	}
 
 	h3 {
+		color: #9a0021;
 		font-size: 1.5em;
 		line-height: 1.5em;
 	}
@@ -2365,8 +2367,8 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #5a040f;
+			color: #5a040f !important;
 		}
 
 		input[type="submit"]:active,
@@ -2374,8 +2376,8 @@
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #5a040f;
+			color: #5a040f !important;
 		}
 
 		input[type="submit"].icon,
@@ -3004,6 +3006,7 @@
 				font-size: 1.2em;
 				line-height: 1.5em;
 				margin: 0 0 0.5em 0;
+				/*5a040f*/
 			}
 
 		/* Section/Article */
