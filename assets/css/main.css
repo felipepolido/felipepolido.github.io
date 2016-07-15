@@ -2250,6 +2250,20 @@
 		margin: 0 0 2em 0;
 	}
 
+#expand {
+	height: 0px;
+	overflow: hidden;
+	transition: height 0.5s;
+	color: #FFF;
+}
+
+#toggle:checked ~ #expand {
+	height: auto;
+}
+#toggle:checked ~ label {
+	content: "-";
+}
+
 /* iFrame */
 	.iframe-wrapper {
 		position: relative;
