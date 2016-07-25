@@ -1579,13 +1579,13 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #9a0021;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #5a040f !important;
 			text-decoration: none;
 		}
 
@@ -1877,6 +1877,7 @@
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
+				border-color: #5a040f;
 			}
 
 			input[type="checkbox"] + label:before,
@@ -1893,19 +1894,20 @@
 				text-align: center;
 				top: 0;
 				width: 1.65em;
+				border-color: #5a040f;
 			}
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			background: #787878;
-			border-color: #787878;
+			border-color: #5a040f;
 			color: #fff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #5a040f;
 		}
 
 	input[type="checkbox"] + label:before {
