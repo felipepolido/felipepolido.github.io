@@ -2160,7 +2160,7 @@
 
 			ul.actions li {
 				display: inline-block;
-				padding: 0 1em 0 0;
+				padding: 0 0.5em 0 0;
 				vertical-align: middle;
 			}
 
@@ -2262,6 +2262,19 @@
 	height: auto;
 }
 #toggle:checked ~ label {
+	content: "-";
+}
+
+#expand1 {
+	height: 0px;
+	overflow: hidden;
+	transition: height 0.5s;
+}
+
+#toggle1:checked ~ #expand1 {
+	height: auto;
+}
+#toggle1:checked ~ label {
 	content: "-";
 }
 
@@ -2423,7 +2436,7 @@
 		height: 3.15em;
 		height: calc(2.75em + 6px);
 		line-height: 2.75em;
-		min-width: 10em;
+		min-width: 8em;
 		padding: 0 1.5em;
 		text-align: center;
 		text-decoration: none;
