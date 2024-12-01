@@ -1566,7 +1566,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #11323C;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
@@ -1579,7 +1579,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #9a0021;
+		color: #11323C;
 		text-decoration: none;
 	}
 
@@ -1590,7 +1590,7 @@
 		}
 
 	strong, b {
-		color: #787878;
+		color: #11323C;
 		font-weight: 400;
 	}
 
@@ -1604,7 +1604,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #285F2F;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 0.5em 0;
@@ -1621,13 +1621,13 @@
 	}
 
 	h2 {
-		color: #58101d;
+		color: #285F2F;
 		font-size: 1.5em;
 		line-height: 1.5em;
 	}
 
 	h3 {
-		color: #9a0021;
+		color: #4EA855;
 		font-size: 1.4em;
 		line-height: 1.5em;
 	}
@@ -1755,7 +1755,7 @@
 	}
 
 	label {
-		color: #787878;
+		color: #11323C;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 400;
@@ -1859,7 +1859,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #5a040f;
+			color: #285F2F;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -1877,7 +1877,7 @@
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
-				border-color: #5a040f;
+				border-color: #285F2F;
 			}
 
 			input[type="checkbox"] + label:before,
@@ -1894,20 +1894,20 @@
 				text-align: center;
 				top: 0;
 				width: 1.65em;
-				border-color: #5a040f;
+				border-color: #285F2F;
 			}
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #787878;
-			border-color: #5a040f;
+			background: #285F2F;
+			border-color: #285F2F;
 			color: #fff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #5a040f;
+			border-color: #285F2F;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2371,7 +2371,7 @@
 		}
 
 		table th {
-			color: #787878;
+			color: #285F2F;
 			font-size: 0.9em;
 			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2429,7 +2429,7 @@
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #285F2F !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2447,8 +2447,8 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #5a040f;
-			color: #5a040f !important;
+			border-color: #285F2F;
+			color: #285F2F !important;
 		}
 
 		input[type="submit"]:active,
@@ -2456,8 +2456,8 @@
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #5a040f;
-			color: #5a040f !important;
+			border-color: #285F2F;
+			color: #285F2F !important;
 		}
 
 		input[type="submit"].icon,
@@ -2502,8 +2502,8 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #285F2F;
+			border-color: #285F2F;
 			color: #ffffff !important;
 		}
 
@@ -2511,16 +2511,16 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #5cc6a7;
-				border-color: #5cc6a7;
+				background-color: #285F2F;
+				border-color: #285F2F;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #3eb08f;
-				border-color: #3eb08f;
+				background-color: #285F2F;
+				border-color: #285F2F;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2530,9 +2530,9 @@
 		input[type="button"]:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: #e7e7e7 !important;
-			border-color: #e7e7e7 !important;
-			color: #b2b2b2 !important;
+			background-color: #285F2F !important;
+			border-color: #285F2F !important;
+			color: #285F2F !important;
 			cursor: default;
 		}
 
@@ -2562,7 +2562,7 @@
 	#header {
 		background-color: #0c070b;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg_atlas.png");
+		background-image: url("images/overlay.png"), url("../../images/microfactory.png");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
