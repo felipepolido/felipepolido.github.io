@@ -3028,7 +3028,7 @@
 			#footer {
 				background-attachment: scroll;
 				background-color: #0c070b;
-				background-image: url("images/overlay.png"), url("../../images/bg_atlas.png");
+				background-image: url("images/overlay.png"), url("../../images/microfactory.png");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
