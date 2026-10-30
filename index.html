@@ -1,352 +1,261 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Felipe Polido - Co-Founder & Head of Technology, Reframe Systems</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="description" content="Felipe Polido is Co-Founder and Head of Technology at Reframe Systems, applying Physical AI to build net-zero homes at scale. Previously at Amazon Robotics and the DARPA Robotics Challenge." />
-		<meta property="og:title" content="Felipe Polido - Building the future of housing with Physical AI" />
-		<meta property="og:description" content="Co-Founder & Head of Technology at Reframe Systems. Applying robotics and AI to build net-zero homes at scale through automated microfactories." />
-		<meta property="og:image" content="https://felipepolido.github.io/charlotte/images/reframe_hero.jpg" />
-		<meta property="og:type" content="website" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body id="top">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Felipe Polido - Co-Founder &amp; CTO, Reframe Systems</title>
+<meta name="description" content="Felipe Polido is Co-Founder and CTO at Reframe Systems, building software-defined factories for American housing and infrastructure. Previously Amazon Robotics and the DARPA Robotics Challenge.">
+<meta property="og:title" content="Felipe Polido - Building the Engine of American Infrastructure">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Co-Founder &amp; CTO at Reframe Systems. Software-defined factories for American housing and infrastructure.">
+<meta property="og:url" content="https://felipepolido.github.io/">
+<meta property="og:image" content="https://felipepolido.github.io/images/og-card.jpg">
+<link rel="canonical" href="https://felipepolido.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@felipe_makes">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap">
+<style>
 
-		<!-- Header -->
-			<header id="header">
-				<a href="#" class="image avatar"><img src="images/felipe_portrait2.jpg" alt="Felipe Polido" /></a>
-				<h1><strong>Felipe Polido</strong>
-				<br><i>Building the future of housing with Physical AI</i>
-				</h1>
-				<p class="header-title">Co-Founder & Head of Technology<br><a href="https://www.reframe.systems/" class="header-link">Reframe Systems</a></p>
-			</header>
+:root{--bg:#0B0D10;--surface:#14181D;--line:#262C34;--text:#ECEEF0;--muted:#A3ACB7;--accent:#1E8E4E;
+--display:'Barlow Condensed',Impact,sans-serif;--sans:'Inter',system-ui,sans-serif;--mono:'JetBrains Mono',ui-monospace,monospace}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:400 17px/1.65 var(--sans)}
+a{color:var(--text);text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px}
+a:hover{color:var(--accent)}
+img{max-width:100%;display:block}
+.wrap{max-width:1240px;margin:0 auto;padding:0 40px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.hero{position:relative;min-height:92vh;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 40%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,13,16,.94) 0%,rgba(11,13,16,.78) 42%,rgba(11,13,16,.15) 100%),linear-gradient(0deg,rgba(11,13,16,1) 0%,rgba(11,13,16,0) 30%)}
+.hero>*:not(img){position:relative;z-index:1}
+nav.top .wrap{display:flex;justify-content:space-between;align-items:center;min-height:72px;gap:16px;flex-wrap:wrap}
+nav.top .name{font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none}
+nav.top ul{list-style:none;margin:0;padding:0;display:flex;gap:26px;flex-wrap:wrap}
+nav.top ul a{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;color:var(--muted)}
+nav.top ul a:hover{color:var(--text)}
+.hero .wrap{width:100%}
+.profile{border-bottom:1px solid var(--line)}
+.pf{display:grid;grid-template-columns:1fr minmax(260px,380px);gap:80px;align-items:end;padding-top:72px;padding-bottom:88px}
+.pf-copy h1{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(60px,8vw,120px);line-height:.88;letter-spacing:-.005em;margin:0 0 18px}
+.pf-tag{font-size:clamp(20px,2vw,26px);line-height:1.3;color:var(--accent);font-weight:500;margin:0 0 28px}
+.pf-bio{font-size:clamp(17px,1.5vw,20px);line-height:1.6;color:#D3D8DE;max-width:36em;margin:0 0 36px}
+.pf-facts{margin:0 0 32px;border-top:1px solid var(--line)}
+.pf-facts div{display:grid;grid-template-columns:110px 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--line)}
+.pf-facts dt{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding-top:3px}
+.pf-facts dd{margin:0;color:var(--text);font-size:16px}
+.pf-links{list-style:none;margin:0;padding:0;display:flex;gap:28px;flex-wrap:wrap}
+.pf-links a{font-family:var(--mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--text);display:inline-flex;align-items:center;min-height:44px}
+.pf-links a::after{content:"\2197";color:var(--accent);margin-left:6px}
+.pf-links a:hover{color:var(--accent)}
+.pf-photo{margin:0}
+.pf-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%;filter:grayscale(.15) contrast(1.02);border-bottom:4px solid var(--accent)}
+@media (max-width:820px){
+ .pf{grid-template-columns:1fr;gap:32px;padding-top:24px;padding-bottom:56px}
+ .pf-photo{order:-1;max-width:240px}
+ .pf-facts div{grid-template-columns:1fr;gap:2px}
+ .pf-links{gap:18px}
+}
+@media (max-width:820px){
+}
 
-		<!-- Main -->
-			<div id="main">
+.hero .copy{padding-bottom:72px}
+.hero h1{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(52px,8.4vw,128px);line-height:.9;letter-spacing:-.005em;margin:0 0 40px;max-width:11ch}
+.hero .who{display:flex;align-items:center;gap:28px;color:var(--muted)}
+.hero .who img{width:168px;height:168px;border-radius:50%;object-fit:cover;border:3px solid var(--accent);flex:none}
+.hero .who strong{color:var(--text);display:block;font-family:var(--display);font-weight:700;font-size:40px;line-height:1;text-transform:uppercase;letter-spacing:.01em;margin-bottom:8px}
+.hero .who .r{display:block;color:var(--text);font-size:19px;font-weight:500}
+.hero .who .p{display:block;font-size:16px;margin-top:2px}
+.soc{list-style:none;margin:14px 0 0;padding:0;display:flex;gap:10px;flex-wrap:wrap}
+.soc a{display:inline-flex;align-items:center;min-height:36px;padding:0 14px;border:1px solid var(--line);background:rgba(11,13,16,.6);font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--text)}
+.soc a:hover{border-color:var(--accent);color:var(--accent)}
+.thesis{font-size:clamp(18px,1.6vw,21px);line-height:1.6;color:#D3D8DE;max-width:40em;margin:-8px 0 32px}
+.leadline{font-size:clamp(22px,2.2vw,28px);line-height:1.35;margin:0 0 40px;max-width:30em;color:var(--text)}
+section.ch{padding:96px 0;border-bottom:1px solid var(--line)}
+.chhead{display:grid;grid-template-columns:120px 1fr;gap:24px;align-items:end;margin-bottom:48px}
+.chhead .n{font-family:var(--display);font-size:96px;font-weight:700;line-height:.8;color:var(--accent)}
+.chhead h2{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(44px,6vw,80px);line-height:.9;margin:0}
+.chhead .meta{color:var(--muted);margin:10px 0 0}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:56px}
+.metrics div{padding:28px 24px;border-left:1px solid var(--line)}
+.metrics div:first-child{border-left:0;padding-left:0}
+.metrics b{display:block;font-family:var(--display);font-size:clamp(64px,8vw,112px);font-weight:700;line-height:.9;color:var(--text)}
+.metrics span{display:block;font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.1em;line-height:1.5;color:var(--accent);margin-top:10px;max-width:22ch}
+.mosaic{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:260px 260px;gap:12px;margin:0 0 56px}
+.mosaic figure{margin:0;position:relative;overflow:hidden;background:var(--surface)}
+.mosaic figure:first-child{grid-row:1/3}
+.mosaic img{width:100%;height:100%;object-fit:cover}
+.mosaic figcaption{position:absolute;left:12px;bottom:10px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;background:rgba(11,13,16,.8);padding:4px 8px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.cols p{margin:0 0 1em;color:#D3D8DE}
+h3.sub{font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.02em;font-size:30px;margin:64px 0 20px}
+.video{position:relative;aspect-ratio:16/9;margin:40px 0 0;background:var(--surface)}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+ul.links{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+ul.links li{border-bottom:1px solid var(--line)}
+ul.links a{display:grid;grid-template-columns:220px 1fr 24px;gap:16px;padding:18px 0;text-decoration:none;align-items:baseline}
+ul.links a::after{content:"\2197";color:var(--accent)}
+ul.links .src{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+ul.links a:hover .ttl{color:var(--accent)}
+details{margin-top:8px}
+summary{cursor:pointer;list-style:none;font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:inline-flex;align-items:center;gap:10px;min-height:44px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--accent);font-size:18px}
+details[open] summary::after{content:"\2212"}
+summary:hover{color:var(--text)}
+.detail{padding:12px 0 8px}
+.detail-img{margin-top:24px}
+.timeline{position:relative}
+.job{display:grid;grid-template-columns:260px 1fr;gap:40px;padding:40px 0;border-top:1px solid var(--line);position:relative}
+.job .yr{font-family:var(--display);font-weight:700;font-size:56px;line-height:.9;color:var(--text)}
+.job .dates{display:block;font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:10px}
+.job h3{font-size:24px;font-weight:600;margin:0 0 4px;letter-spacing:-.01em}
+.job .org{color:var(--accent);margin:0 0 14px;font-weight:500}
+.job .org a{color:var(--accent)}
+.job p{margin:0;color:#D3D8DE;max-width:42em}
+.edugrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.edu{background:var(--surface);padding:24px}
+.edu h3{margin:0 0 6px;font-size:19px;font-weight:600}.edu p{margin:0;color:var(--muted)}
+.gpa{display:block;font-family:var(--mono);font-size:12px;color:var(--accent);margin-top:8px;letter-spacing:.08em}
+.pat{display:grid;grid-template-columns:280px 1fr;gap:48px}
+.pat .big b{display:block;font-family:var(--display);font-size:200px;font-weight:700;line-height:.8;color:var(--accent)}
+.pat .big span{font-family:var(--display);text-transform:uppercase;font-size:28px;font-weight:600;letter-spacing:.02em}
+.pat .big p{color:var(--muted);font-size:15px}
+.pcat h3{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:500;margin:0 0 10px}
+.pcat+.pcat{margin-top:36px}
+.plist{list-style:none;margin:0;padding:0}
+.plist li{display:grid;grid-template-columns:130px 1fr;gap:16px;padding:10px 0;border-top:1px solid var(--line)}
+.pid{font-family:var(--mono);font-size:13px;color:var(--muted)}
+.pubs{list-style:none;margin:0;padding:0}
+.pubs li{display:grid;grid-template-columns:72px 1fr;gap:16px;padding:22px 0;border-top:1px solid var(--line)}
+.pn{font-family:var(--display);font-size:36px;font-weight:700;line-height:1;color:var(--accent)}
+.pubs h3{font-size:19px;font-weight:600;margin:0 0 6px;line-height:1.35}
+.pubs h3 a{text-decoration:none}.pubs h3 a:hover{text-decoration:underline}
+.pubs p{margin:0;color:var(--muted);font-size:15px}
+.contact p{font-size:19px;max-width:36em;color:#D3D8DE;margin:0}
+.contact .soc{margin-top:24px}
+footer{border-top:1px solid var(--line);padding:28px 0}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer ul{list-style:none;margin:0;padding:0;display:flex;gap:24px}
+footer a,footer span{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;color:var(--muted)}
+@media (max-width:820px){
+ .wrap{padding:0 16px}
+ nav.top .wrap{padding-top:14px;padding-bottom:10px}
+ nav.top ul{gap:2px 14px}
+ nav.top ul a{font-size:11px}
+ .hero{min-height:88vh}
+ .hero::after{background:linear-gradient(0deg,rgba(11,13,16,.97) 0%,rgba(11,13,16,.7) 55%,rgba(11,13,16,.35) 100%)}
+ .chhead{grid-template-columns:1fr;gap:8px}
+ .chhead .n{font-size:64px}
+ .metrics{grid-template-columns:1fr}
+ .metrics div{border-left:0;border-top:1px solid var(--line);padding:20px 0}
+ .metrics div:first-child{border-top:0}
+ .mosaic{grid-template-columns:1fr;grid-template-rows:240px 180px 180px}
+ .mosaic figure:first-child{grid-row:auto}
+ .cols,.pat,.edugrid{grid-template-columns:1fr;gap:24px}
+ .pat .big b{font-size:140px}
+ .hero .who{flex-direction:column;align-items:flex-start;gap:16px}
+ .hero .who img{width:112px;height:112px}
+ .hero .who strong{font-size:32px}
+ .job{grid-template-columns:1fr;gap:12px}
+ .job .yr{font-size:44px}
+ ul.links a{grid-template-columns:1fr 24px}
+ ul.links .src{grid-column:1/-1}
+ .plist li{grid-template-columns:1fr;gap:2px}
+ .pubs li{grid-template-columns:48px 1fr}
+}
 
-				<!-- Hero -->
-					<section id="hero">
-						<div class="hero-image">
-							<img src="images/reframe_hero.jpg" alt="Reframe Systems robotic work cell">
-						</div>
-					</section>
 
-				<!-- Intro -->
-					<section id="intro">
-						<p class="lede">
-							Homes are getting more expensive every year. And with roughly 40% of the skilled construction workforce set to retire over the next decade, there are fewer tradespeople to build them. If you've gone looking for a place to live recently, or own a home that needs repairs, you've likely felt it. I co-founded Reframe Systems to work on a different approach: software-driven manufacturing and robotics that can deliver high-performance, resilient housing to neighborhoods across the country, at scale.
-						</p>
-					</section>
+.video a.yt{position:absolute;inset:0;display:block;background:#000;overflow:hidden;text-decoration:none}
+.video a.yt img{width:100%;height:100%;object-fit:cover;opacity:.85;transition:opacity .2s}
+.video a.yt:hover img{opacity:1}
+.video a.yt .play{position:absolute;left:50%;top:50%;width:72px;height:72px;margin:-36px 0 0 -36px;border-radius:50%;background:var(--accent,#111)}
+.video a.yt .play::after{content:"";position:absolute;left:29px;top:22px;border-style:solid;border-width:14px 0 14px 22px;border-color:transparent transparent transparent #fff}
+.video a.yt .yt-title{position:absolute;left:0;right:0;bottom:0;padding:28px 16px 12px;color:#fff;font-size:14px;font-weight:500;background:linear-gradient(0deg,rgba(0,0,0,.75),rgba(0,0,0,0))}
 
-				<!-- Reframe Systems -->
-					<section id="reframe">
-						<header class="major">
-							<h1>Reframe Systems</h1>
-						</header>
-						<h4><a href="https://www.reframe.systems/">Reframe Systems</a>, Feb 2023 &mdash; Present</h4>
+</style>
+</head>
+<body>
 
-						<div class="metrics-bar">
-							<div class="metric">
-								<span class="metric-value">2.5x</span>
-								<span class="metric-label">Faster</span>
-							</div>
-							<div class="metric">
-								<span class="metric-value">35%</span>
-								<span class="metric-label">Cheaper</span>
-							</div>
-							<div class="metric">
-								<span class="metric-value">10x</span>
-								<span class="metric-label">Less Carbon</span>
-							</div>
-						</div>
+<div id="top"></div>
+<header class="profile">
+  <nav class="top" aria-label="Sections"><div class="wrap"><a class="name" href="#top">FP</a><ul><li><a href="#reframe">Reframe</a></li><li><a href="#career">Career</a></li><li><a href="#patents">Patents</a></li><li><a href="#publications">Publications</a></li><li><a href="#contact">Contact</a></li></ul></div></nav>
+  <div class="wrap pf">
+    <div class="pf-copy">
+      <h1>Felipe Polido</h1>
+      <p class="pf-tag">Building the engine of American infrastructure.</p>
+      <p class="pf-bio">I lead robotics, software, and manufacturing at <a href="https://www.reframe.systems/">Reframe Systems</a>, where we build software-defined factories outside Boston.</p>
+      <dl class="pf-facts"><div><dt>Now</dt><dd>Co-Founder &amp; CTO, Reframe Systems</dd></div><div><dt>Before</dt><dd>Sparrow tech lead, Amazon Robotics &middot; HyQ quadrupeds, IIT &middot; Atlas humanoid, DARPA Robotics Challenge</dd></div><div><dt>Record</dt><dd>17 granted US patents &middot; 6 publications</dd></div></dl>
+      <ul class="pf-links"><li><a href="https://x.com/felipe_makes">X</a></li><li><a href="https://www.linkedin.com/in/felipepolido/">LinkedIn</a></li><li><a href="https://github.com/felipepolido">GitHub</a></li><li><a href="mailto:felipe.polido@gmail.com">Email</a></li></ul>
+    </div>
+    <figure class="pf-photo"><img src="images/portrait-tall.jpg" alt="Felipe Polido" loading="lazy"></figure>
+  </div>
+</header>
 
-						<p>
-							I co-founded Reframe with <a href="https://www.linkedin.com/in/vikasenti/">Vikas Enti</a> (CEO) and <a href="https://www.linkedin.com/in/aasmall/">Aaron Small</a> (Head of Operations and Digital AI). I lead Manufacturing, Software, and Robotics, building the full technology stack that powers our microfactory system from the ground up.
-						</p>
-						<p>
-							Our software-defined, highly automated microfactories produce net-zero homes faster, cheaper, and with a fraction of the carbon of traditional construction. Each microfactory is a compact 50,000 sq ft facility that can launch in roughly 100 days and produce about 500 homes per year, putting manufacturing capacity directly into the communities that need it.
-						</p>
+<main>
 
-						<div class="iframe-wrapper">
-							<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vLmsxrrVjYU?start=862" title="Foxglove Actuate: Reframe Systems" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						</div>
+<section class="ch" id="reframe"><div class="wrap">
+  <div class="chhead"><span class="n">01</span><div><h2>Reframe Systems</h2><p class="meta"><a href="https://www.reframe.systems/">reframe.systems</a> &middot; Co-founded 2022 &middot; Feb 2023 &ndash; Present</p></div></div>
+  <p class="thesis">We need to learn to love building again in the US. We are short on homes, power plants, data centers, and the factories that make all of it. Since 1970, US manufacturing productivity has grown about ninefold while <a href="https://www.chicagobooth.edu/review/2023/november/mystery-us-constructions-declining-productivity">construction productivity has fallen, roughly 1% a year</a>. And about 41% of the construction workforce is <a href="https://www.nccer.org/newsroom/nccer-in-the-news-nationalworld-what-can-be-done-to-fix-the-construction-labor-shortage/">expected to retire by 2031</a>. Housing and public works will keep getting more expensive unless we change how we build.</p>
+  <p class="leadline">We build software-defined factories, and the structures that come out of them.</p>
+  <div class="metrics"><div><b>70</b><span>Days from keys to first part at FAB1</span></div><div><b>&lt;$5M</b><span>Equipment cost for FAB1</span></div><div><b>500</b><span>Multifamily units per year, per factory</span></div></div>
+  <div class="mosaic">
+    <figure><img src="images/factory-floor.jpg" alt="Walking the floor of a Reframe Systems microfactory" loading="lazy"><figcaption>Microfactory floor</figcaption></figure>
+    <figure><img src="images/module-lift.jpg" alt="A factory-built module lifted by crane against a blue sky" loading="lazy"><figcaption>Module lift</figcaption></figure>
+    <figure><img src="images/acadia-arm-wide.jpg" alt="Robotic arm framing a wall panel in a Reframe Systems microfactory" loading="lazy"><figcaption>Robotic framing</figcaption></figure>
+  </div>
+  <div class="cols"><div><p>I co-founded Reframe in 2022 with <a href="https://www.linkedin.com/in/vikasenti/">Vikas Enti</a> (CEO) and <a href="https://www.linkedin.com/in/aasmall/">Aaron Small</a> (Head of Operations and Digital AI). I lead Manufacturing, Software, and Robotics.</p><p>Every part we build starts as a released design model. Our software turns it into machine files, robot programs and work instructions, and schedules it on the line. Nobody redraws anything by hand. Our robotic cells frame wall panels every day in production.</p><p>FAB1 is our new factory in Billerica, MA. We got the keys, and 70 days later the first part came off the line (we had planned for 120). Total equipment cost was under $5M. And we designed it to be copied... the next one gets the same layout and the same software, close to wherever the next customer is.</p></div><div><div class="video" style="margin:0"><a class="yt" href="https://www.youtube.com/watch?v=vLmsxrrVjYU&amp;t=862s" target="_blank" rel="noopener" data-embed="https://www.youtube-nocookie.com/embed/vLmsxrrVjYU?start=862" aria-label="Play video: Foxglove Actuate: Reframe Systems"><img src="https://i.ytimg.com/vi/vLmsxrrVjYU/hqdefault.jpg" alt="" loading="lazy"><span class="play" aria-hidden="true"></span><span class="yt-title">Foxglove Actuate: Reframe Systems</span></a></div></div></div>
+  <h3 class="sub">Housing first</h3>
+  <div class="cols"><div><p>Housing is the first product. 10 homes delivered so far, from ADUs to triple-deckers, and 114 more units in the pipeline.</p></div><div><p>But the robot framing a wall does not know if it is going into an apartment or into workforce housing next to a new power plant. The same model-to-factory pipeline works for the buildings behind energy and data centers, and for the carts and fixtures the factory itself runs on. That is where this goes next.</p></div></div>
+  <h3 class="sub">In the Press</h3>
+  <ul class="links"><li><a href="https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/"><span class="src">The Robot Report</span><span class="ttl">Reframe Systems raises $40M to scale robotic microfactories for home building</span></a></li><li><a href="https://www.housingwire.com/articles/reframe-systems-raises-40m-to-scale-modular-microfactories/"><span class="src">HousingWire</span><span class="ttl">Reframe Systems raises $40M to scale modular microfactories</span></a></li><li><a href="https://www.forbes.com/sites/jennifercastenson/2024/08/03/going-micro-with-a-twist-eliminates-barriers-to-offsite-housing/"><span class="src">Forbes</span><span class="ttl">Going Micro With A Twist Eliminates Barriers To Offsite Housing</span></a></li></ul>
+  <details><summary>More coverage</summary><div class="detail"><ul class="links"><li><a href="https://commercialobserver.com/2026/09/vikas-enti-reframe-systems-fundraise/"><span class="src">Commercial Observer</span><span class="ttl">Vikas Enti of Reframe Systems: 5 Questions</span></a></li><li><a href="https://www.businesswire.com/news/home/20250826906847/en/"><span class="src">Business Wire</span><span class="ttl">Reframe Systems Raises $20M to Scale Microfactories</span></a></li><li><a href="https://www.csmonitor.com/Environment/2024/1205/modular-construction-housing-shortage"><span class="src">Christian Science Monitor</span><span class="ttl">Robots and entrepreneurs work to green the US housing industry</span></a></li><li><a href="https://www.therobotreport.com/reframe-systems-uses-robotic-microfactories-change-how-build-homes/"><span class="src">The Robot Report</span><span class="ttl">Reframe Systems Uses Robotic Microfactories to Change How We Build Homes</span></a></li><li><a href="https://greentownlabs.com/reframe-systems-is-building-net-zero-homes-of-the-future-with-robots-and-microfactories/"><span class="src">Greentown Labs</span><span class="ttl">Building Net-Zero Homes of the Future with Robots and Microfactories</span></a></li><li><a href="https://www.zivid.com/application-stories/reframe-systems-microfactory"><span class="src">Zivid</span><span class="ttl">Integrating 3D Vision for Advanced Robotic Construction</span></a></li><li><a href="https://www.youtube.com/watch?v=oJc9hXyNtNo"><span class="src">Dave Cooper</span><span class="ttl">Ex-Amazon Team Builds Net-Zero Prefab Homes with Robotic Micro-factories</span></a></li></ul></div></details>
+</div></section>
 
-						<h5 class="section-label">Resilience Is Our Guiding Principle</h5>
+<section class="ch" id="career"><div class="wrap">
+  <div class="chhead"><span class="n">02</span><div><h2>Previously</h2></div></div>
+  <div class="timeline"><article class="job"><div><span class="yr">2016&ndash;2023</span><span class="dates">Aug 2016 &ndash; Jan 2023</span></div>
+<div><h3>Senior Robotics System Developer Engineer</h3><p class="org">Amazon Robotics</p><p>Technical Lead for the Sparrow Program, Amazon Robotics' flagship item manipulation system. I built vision-based robotic solutions for singulation, dense packing, item identification, and damage detection, deployed across hundreds of thousands of robotic units in Amazon's fulfillment network.</p><details><summary>Press and video</summary><div class="detail"><ul class="links"><li><a href="https://www.aboutamazon.com/news/operations/amazon-introduces-sparrow-a-state-of-the-art-robot-that-handles-millions-of-diverse-products"><span class="src">Amazon</span><span class="ttl">Introducing Sparrow</span></a></li><li><a href="https://techcrunch.com/2022/11/10/amazon-debuts-sparrow-a-new-bin-picking-robot-arm/"><span class="src">TechCrunch</span><span class="ttl">Amazon debuts Sparrow, a new bin-picking robot arm</span></a></li><li><a href="https://www.therobotreport.com/meet-sparrow-amazons-new-item-picking-robot/"><span class="src">The Robot Report</span><span class="ttl">Meet Sparrow: Amazon's new item-picking robot</span></a></li></ul><div class="video"><a class="yt" href="https://www.youtube.com/watch?v=xcnbuxSH_bk" target="_blank" rel="noopener" data-embed="https://www.youtube-nocookie.com/embed/xcnbuxSH_bk" aria-label="Play video: Amazon Sparrow robot demo"><img src="https://i.ytimg.com/vi/xcnbuxSH_bk/hqdefault.jpg" alt="" loading="lazy"><span class="play" aria-hidden="true"></span><span class="yt-title">Amazon Sparrow robot demo</span></a></div></div></details></div></article><article class="job"><div><span class="yr">2015&ndash;2016</span><span class="dates">Jul 2015 &ndash; Jul 2016</span></div>
+<div><h3>Senior Robotics Software Engineer</h3><p class="org"><a href="https://dls.iit.it/">Dynamic Legged Systems Lab</a>, Italian Institute of Technology</p><p>Built the software architecture for the HyQ and HyQ2Max quadruped robots, integrating real-time controllers, state estimation, and simulation on Xenomai Linux.</p><details><summary>Press and video</summary><div class="detail"><ul class="links"><li><a href="https://spectrum.ieee.org/automaton/robotics/robotics-hardware/hyq-quadruped-robot-is-back-with-even-more-tricks"><span class="src">IEEE Spectrum</span><span class="ttl">HyQ Quadruped Robot Is Back With Even More Tricks</span></a></li></ul><div class="video"><a class="yt" href="https://www.youtube.com/watch?v=ENHvCGrnr2g" target="_blank" rel="noopener" data-embed="https://www.youtube-nocookie.com/embed/ENHvCGrnr2g" aria-label="Play video: HyQ quadruped robot"><img src="https://i.ytimg.com/vi/ENHvCGrnr2g/hqdefault.jpg" alt="" loading="lazy"><span class="play" aria-hidden="true"></span><span class="yt-title">HyQ quadruped robot</span></a></div></div></details></div></article><article class="job"><div><span class="yr">2013&ndash;2015</span><span class="dates">Dec 2013 &ndash; Jun 2015</span></div>
+<div><h3>Senior Robotics Engineer, Humanoid Manipulation</h3><p class="org">WPI-CMU DARPA Robotics Challenge Team</p><p>Manipulation Lead for the WPI-CMU team in the DARPA Robotics Challenge. I led full-body motion planning for the 30-DoF Boston Dynamics Atlas humanoid robot, coordinating a team of graduate and undergraduate students through the DRC Trials and Finals.</p><details><summary>Press and video</summary><div class="detail"><ul class="links"><li><a href="https://spectrum.ieee.org/automaton/robotics/humanoids/darpa-robotics-challenge-finals-day-1"><span class="src">IEEE Spectrum</span><span class="ttl">DARPA Robotics Challenge Finals: Day 1</span></a></li><li><a href="https://www.washingtonpost.com/blogs/the-switch/wp/2015/06/07/the-pentagons-fleet-of-robots-may-not-be-so-menacing-after-all/"><span class="src">Washington Post</span><span class="ttl">The Pentagon's fleet of robots</span></a></li><li><a href="https://www.bostonglobe.com/ideas/2015/06/15/success-and-falls-robot-olympics/CpXmCX8VtF9lENnh4kefvJ/story.html"><span class="src">Boston Globe</span><span class="ttl">Success and falls at the robot Olympics</span></a></li></ul><img src="images/valve_turning.png" alt="Atlas humanoid robot valve turning" loading="lazy" class="detail-img"><div class="video"><a class="yt" href="https://www.youtube.com/watch?v=BgfsxH3poCU" target="_blank" rel="noopener" data-embed="https://www.youtube-nocookie.com/embed/BgfsxH3poCU" aria-label="Play video: DARPA Robotics Challenge 2015"><img src="https://i.ytimg.com/vi/BgfsxH3poCU/hqdefault.jpg" alt="" loading="lazy"><span class="play" aria-hidden="true"></span><span class="yt-title">DARPA Robotics Challenge 2015</span></a></div></div></details></div></article></div>
+  <h3 class="sub">Education</h3>
+  <div class="edugrid"><div class="edu"><h3>M.S. Robotics Engineering</h3><p>Worcester Polytechnic Institute, 2014</p><span class="gpa">GPA: 4.0</span></div><div class="edu"><h3>B.S. Electrical &amp; Computer Engineering / Robotics Engineering</h3><p>Worcester Polytechnic Institute, 2011</p><span class="gpa">GPA: 3.8</span></div></div>
+</div></section>
 
-						<p>
-							At Reframe, resilience is an engineering standard, not a marketing label. It's the lens we apply to every product, technology, and business decision we make.
-						</p>
-						<p>
-							We build off-site, in precision-controlled environments. That removes the field errors and variability of on-site construction, and lets us deliver zero-energy-ready homes at the same price as conventional builds, with lower embodied carbon and better long-term durability.
-						</p>
-						<p>
-							The Reframe Building System adapts to where homes get built and what they have to withstand: complex sites, hazard zones, evolving energy codes, and the regulatory complexity of 50 state codes and roughly 30,000 zoning jurisdictions. Our microfactories and physical AI carry that same adaptability into manufacturing, so when market demand shifts, the response is a software change.
-						</p>
+<section class="ch" id="patents"><div class="wrap">
+  <div class="chhead"><span class="n">03</span><div><h2>Patents</h2></div></div>
+  <div class="pat"><div class="big"><b>17</b><span>Granted US patents</span><p>All patents issued while at Amazon Robotics, covering robotic grasping, end-of-arm tooling, manipulation systems, and safety. <a href="https://patents.google.com/?inventor=Felipe+De+Arruda+Camargo+Polido&amp;num=50&amp;oq=Felipe+De+Arruda+Camargo+Polido&amp;sort=new">View all on Google Patents</a></p></div>
+  <div><div class="pcat"><h3>Robotic Grasping &amp; End-of-Arm Tools</h3><ul class="plist"><li><span class="pid">US12528653</span><span class="pt">Concentric suction cup tools with integrated air chambers</span></li><li><span class="pid">US12428243</span><span class="pt">Concentric suction cup tools with integrated brake assemblies</span></li><li><span class="pid">US11492215</span><span class="pt">Concentric suction cup tools with parallel pistons</span></li><li><span class="pid">US11351678</span><span class="pt">Dynamically adjustable suction cups</span></li><li><span class="pid">US11207786</span><span class="pt">Concentric suction cup array for end-of-arm tool</span></li><li><span class="pid">US11084175</span><span class="pt">End-of-arm tool having concentric suction cups</span></li><li><span class="pid">US11077564</span><span class="pt">Toroidal suction grippers</span></li><li><span class="pid">US10933537</span><span class="pt">End of arm tool including feedback</span></li><li><span class="pid">US10611580</span><span class="pt">Concentric suction cup array including actuators and compliance</span></li><li><span class="pid">US10611037</span><span class="pt">Concentric suction cup array for end-of-arm tool</span></li><li><span class="pid">US10059007</span><span class="pt">Finger-aligned extendable gripping mechanisms for item manipulation</span></li></ul></div><div class="pcat"><h3>Manipulation Systems &amp; Robotics Infrastructure</h3><ul class="plist"><li><span class="pid">US12194627</span><span class="pt">Modular robotic manipulation systems</span></li><li><span class="pid">US11865727</span><span class="pt">Robotic picking assemblies with different concurrent flow rates</span></li><li><span class="pid">US11623339</span><span class="pt">Portable robotic manipulation systems</span></li><li><span class="pid">US11534923</span><span class="pt">Robotic manipulation and frame sensor placement for in-motion object modeling</span></li></ul></div><div class="pcat"><h3>Safety &amp; Calibration</h3><ul class="plist"><li><span class="pid">US11912513</span><span class="pt">Robotic system camera calibration and localization using robot-mounted registered patterns</span></li><li><span class="pid">US11279035</span><span class="pt">LIDAR safety rings</span></li></ul></div></div></div>
+</div></section>
 
-						<h5 class="section-label">In the Press</h5>
-						<div class="press-links">
-							<a class="press-link press-link-featured" href="https://www.businesswire.com/news/home/20250826906847/en/">Business Wire &mdash; Reframe Systems Raises $20M to Scale Microfactories</a>
-							<a class="press-link press-link-featured" href="https://www.forbes.com/sites/jennifercastenson/2024/08/03/going-micro-with-a-twist-eliminates-barriers-to-offsite-housing/">Forbes &mdash; Going Micro With A Twist Eliminates Barriers To Offsite Housing</a>
-							<a class="press-link press-link-featured" href="https://www.csmonitor.com/Environment/2024/1205/modular-construction-housing-shortage">Christian Science Monitor &mdash; Robots and entrepreneurs work to green the US housing industry</a>
-						</div>
-						<input id="toggle-press" type="checkbox">
-						<label for="toggle-press">More coverage</label>
-						<div id="expand-press">
-						<div class="press-links">
-							<a class="press-link" href="https://www.therobotreport.com/reframe-systems-uses-robotic-microfactories-change-how-build-homes/">The Robot Report &mdash; Reframe Systems Uses Robotic Microfactories to Change How We Build Homes</a>
-							<a class="press-link" href="https://greentownlabs.com/reframe-systems-is-building-net-zero-homes-of-the-future-with-robots-and-microfactories/">Greentown Labs &mdash; Building Net-Zero Homes of the Future with Robots and Microfactories</a>
-							<a class="press-link" href="https://www.zivid.com/application-stories/reframe-systems-microfactory">Zivid &mdash; Integrating 3D Vision for Advanced Robotic Construction</a>
-							<a class="press-link" href="https://www.youtube.com/watch?v=oJc9hXyNtNo">Dave Cooper &mdash; Ex-Amazon Team Builds Net-Zero Prefab Homes with Robotic Micro-factories</a>
-						</div>
-						</div>
-					</section>
+<section class="ch" id="publications"><div class="wrap">
+  <div class="chhead"><span class="n">04</span><div><h2>Publications</h2></div></div>
+  <ol class="pubs"><li><span class="pn">01</span><div><h3><a href="https://www.amazon.science/code-and-datasets/amazon-robotic-manipulation-benchmark-armbench">ARMBench: Amazon Robotic Manipulation Benchmark</a></h3><p>Chaitanya Mitash, Fan Wang, Shiyang Lu, Vikedo Terhuja, Tyler Garaas, Felipe Polido, Manikantan Nambi, ICRA 2023.</p></div></li><li><span class="pn">02</span><div><h3><a href="https://www.cs.cmu.edu/~cga/drc/door-submitted.pdf">Human-Supervised Control of the ATLAS Humanoid Robot for Traversing Doors</a></h3><p>Nandan Banerjee, Xianchao Long, Ruixiang Du, Felipe Polido, Siyuan Feng, Christopher Atkeson, Michael Gennert, Taskin Padir, IEEE Humanoids 2015.</p></div></li><li><span class="pn">03</span><div><h3>Team WPI-CMU: achieving reliable humanoid behavior in the DARPA Robotics Challenge</h3><p>Christopher G. Atkeson, Benzun P. W. Babu, Nandan Banerjee, et al. including Felipe Polido, Journal of Field Robotics.</p></div></li><li><span class="pn">04</span><div><h3><a href="https://www.mattdedonato.com/files/publications/human_in_the_loop_control.pdf">Human-in-the-loop Control of a Humanoid Robot for Disaster Response</a></h3><p>DeDonato, M., Dimitrov, V., Du, R., et al. including Polido, F., Journal of Field Robotics 2015.</p></div></li><li><span class="pn">05</span><div><h3><a href="https://www.cs.cmu.edu/~cga/drc/paper14.pdf">NO FALLS, NO RESETS: Reliable humanoid behavior in the DARPA Robotics Challenge</a></h3><p>Christopher G. Atkeson et al. including Felipe Polido, 15th IEEE-RAS International Conference on Humanoid Robots (2015).</p></div></li><li><span class="pn">06</span><div><h3><a href="https://www.cs.cmu.edu/~cga/drc/jfr-what.pdf">What Happened at the DARPA Robotics Challenge, and Why?</a></h3><p>Christopher G. Atkeson et al. including Felipe Polido, DRC Finals Special Issue of the Journal of Field Robotics (2015).</p></div></li></ol>
+</div></section>
 
-				<!-- Career -->
-					<section id="career">
-						<h5 class="section-label">Previously</h5>
+<section class="ch contact" id="contact"><div class="wrap">
+  <div class="chhead"><span class="n">05</span><div><h2>Get in touch</h2></div></div>
+  <p>Interested in Reframe Systems, robotics, or just want to connect? Reach me at <a href="mailto:felipe.polido@gmail.com">felipe.polido@gmail.com</a> or find me on <a href="https://www.linkedin.com/in/felipepolido/">LinkedIn</a> and <a href="https://x.com/felipe_makes">X</a>.</p><ul class="soc"><li><a href="https://x.com/felipe_makes">X</a></li><li><a href="https://www.linkedin.com/in/felipepolido/">LinkedIn</a></li><li><a href="https://github.com/felipepolido">GitHub</a></li><li><a href="mailto:felipe.polido@gmail.com">Email</a></li></ul>
+</div></section>
+</main>
+<footer><div class="wrap"><span>Felipe Polido &middot; Building the Engine of American Infrastructure</span><ul><li><a href="https://x.com/felipe_makes">X</a></li><li><a href="https://www.linkedin.com/in/felipepolido/">LinkedIn</a></li><li><a href="https://github.com/felipepolido">GitHub</a></li><li><a href="mailto:felipe.polido@gmail.com">Email</a></li></ul></div></footer>
 
-						<!-- Amazon -->
-						<header class="major">
-							<h3>Senior Robotics System Developer Engineer</h3>
-						</header>
-						<h4>Amazon Robotics, Aug 2016 &mdash; Jan 2023</h4>
-
-						<p>
-							Technical Lead for the Sparrow Program, Amazon Robotics' flagship item manipulation system. I built vision-based robotic solutions for singulation, dense packing, item identification, and damage detection, deployed across hundreds of thousands of robotic units in Amazon's fulfillment network.
-						</p>
-					</section>
-					<input id="toggle-amazon" type="checkbox">
-					<label for="toggle-amazon">More</label>
-					<div id="expand-amazon">
-					<section id="amazon-detail">
-						<div class="press-links">
-							<a class="press-link" href="https://www.aboutamazon.com/news/operations/amazon-introduces-sparrow-a-state-of-the-art-robot-that-handles-millions-of-diverse-products">Amazon &mdash; Introducing Sparrow</a>
-							<a class="press-link" href="https://techcrunch.com/2022/11/10/amazon-debuts-sparrow-a-new-bin-picking-robot-arm/">TechCrunch &mdash; Amazon debuts Sparrow, a new bin-picking robot arm</a>
-							<a class="press-link" href="https://www.therobotreport.com/meet-sparrow-amazons-new-item-picking-robot/">The Robot Report &mdash; Meet Sparrow: Amazon's new item-picking robot</a>
-						</div>
-						<div class="iframe-wrapper">
-							<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xcnbuxSH_bk" title="Amazon Sparrow robot demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						</div>
-					</section>
-					</div>
-
-					<!-- DARPA -->
-					<section id="darpa">
-						<header class="major">
-							<h3>Senior Robotics Engineer &mdash; Humanoid Manipulation</h3>
-						</header>
-						<h4>WPI-CMU DARPA Robotics Challenge Team, Dec 2013 &mdash; Jun 2015</h4>
-
-						<p>
-							Manipulation Lead for the WPI-CMU team in the DARPA Robotics Challenge. I led full-body motion planning for the 30-DoF Boston Dynamics Atlas humanoid robot, coordinating a team of graduate and undergraduate students through the DRC Trials and Finals.
-						</p>
-					</section>
-					<input id="toggle-darpa" type="checkbox">
-					<label for="toggle-darpa">More</label>
-					<div id="expand-darpa">
-					<section id="darpa-detail">
-						<div class="press-links">
-							<a class="press-link" href="https://spectrum.ieee.org/automaton/robotics/humanoids/darpa-robotics-challenge-finals-day-1">IEEE Spectrum &mdash; DARPA Robotics Challenge Finals: Day 1</a>
-							<a class="press-link" href="https://www.washingtonpost.com/blogs/the-switch/wp/2015/06/07/the-pentagons-fleet-of-robots-may-not-be-so-menacing-after-all/">Washington Post &mdash; The Pentagon's fleet of robots</a>
-							<a class="press-link" href="https://www.bostonglobe.com/ideas/2015/06/15/success-and-falls-robot-olympics/CpXmCX8VtF9lENnh4kefvJ/story.html">Boston Globe &mdash; Success and falls at the robot Olympics</a>
-						</div>
-
-						<img src="images/valve_turning.png" alt="Atlas humanoid robot valve turning" class="full-width">
-
-						<div class="iframe-wrapper">
-							<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BgfsxH3poCU" title="DARPA Robotics Challenge 2015" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						</div>
-					</section>
-					</div>
-
-					<!-- IIT -->
-					<section id="iit">
-						<header class="major">
-							<h3>Senior Robotics Software Engineer</h3>
-						</header>
-						<h4><a href="https://dls.iit.it/">Dynamic Legged Systems Lab</a> &mdash; Italian Institute of Technology, Jul 2015 &mdash; Jul 2016</h4>
-
-						<p>
-							Built the software architecture for the HyQ and HyQ2Max quadruped robots, integrating real-time controllers, state estimation, and simulation on Xenomai Linux.
-						</p>
-					</section>
-					<input id="toggle-iit" type="checkbox">
-					<label for="toggle-iit">More</label>
-					<div id="expand-iit">
-					<section id="iit-detail">
-						<div class="press-links">
-							<a class="press-link" href="https://spectrum.ieee.org/automaton/robotics/robotics-hardware/hyq-quadruped-robot-is-back-with-even-more-tricks">IEEE Spectrum &mdash; HyQ Quadruped Robot Is Back With Even More Tricks</a>
-						</div>
-						<div class="iframe-wrapper">
-							<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ENHvCGrnr2g" title="HyQ quadruped robot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						</div>
-					</section>
-					</div>
-
-				<!-- Education -->
-					<section id="education">
-						<h5 class="section-label">Education</h5>
-
-						<div class="edu-entry">
-							<span class="edu-degree">M.S. Robotics Engineering</span>
-							<span class="edu-meta">Worcester Polytechnic Institute, 2014 &mdash; GPA: 4.0</span>
-						</div>
-
-						<div class="edu-entry">
-							<span class="edu-degree">B.S. Electrical & Computer Engineering / Robotics Engineering</span>
-							<span class="edu-meta">Worcester Polytechnic Institute, 2011 &mdash; GPA: 3.8</span>
-						</div>
-					</section>
-
-				<!-- Patents -->
-					<section id="patents">
-						<h5 class="section-label">Patents &mdash; 17 Granted US Patents</h5>
-						<p class="patent-intro">All patents issued while at Amazon Robotics, covering robotic grasping, end-of-arm tooling, manipulation systems, and safety. <a href="https://patents.google.com/?inventor=Felipe+De+Arruda+Camargo+Polido&num=50&oq=Felipe+De+Arruda+Camargo+Polido&sort=new">View all on Google Patents</a></p>
-
-						<h5 class="patent-category">Robotic Grasping & End-of-Arm Tools</h5>
-						<div class="patent-list">
-							<div class="patent">
-								<span class="patent-id">US12528653</span>
-								<span class="patent-title">Concentric suction cup tools with integrated air chambers</span>
-							</div>
-							<div class="patent">
-								<span class="patent-id">US12428243</span>
-								<span class="patent-title">Concentric suction cup tools with integrated brake assemblies</span>
-							</div>
-							<div class="patent">
-								<span class="patent-id">US11492215</span>
-								<span class="patent-title">Concentric suction cup tools with parallel pistons</span>
-							</div>
-							<div class="patent">
-								<span class="patent-id">US11351678</span>
-								<span class="patent-title">Dynamically adjustable suction cups</span>
-							</div>
-							<div class="patent">
-								<span class="patent-id">US11207786</span>
-								<span class="patent-title">Concentric suction cup array for end-of-arm tool</span>
-							</div>
-							<div class="patent">
-								<span class="patent-id">US11084175</span>
-								<span class="patent-title">End-of-arm tool having concentric suction cups</span>
-							</div>
-							<div class="patent">
-								<span class="patent-id">US11077564</span>
-								<span class="patent-title">Toroidal suction grippers</span>
-							</div>
-							<div class="patent">
-								<span class="patent-id">US10933537</span>
-								<span class="patent-title">End of arm tool including feedback</span>
-							</div>
-							<div class="patent">
-								<span class="patent-id">US10611580</span>
-								<span class="patent-title">Concentric suction cup array including actuators and compliance</span>
-							</div>
-							<div class="patent">
-								<span class="patent-id">US10611037</span>
-								<span class="patent-title">Concentric suction cup array for end-of-arm tool</span>
-							</div>
-							<div class="patent">
-								<span class="patent-id">US10059007</span>
-								<span class="patent-title">Finger-aligned extendable gripping mechanisms for item manipulation</span>
-							</div>
-						</div>
-
-						<h5 class="patent-category">Manipulation Systems & Robotics Infrastructure</h5>
-						<div class="patent-list">
-							<div class="patent">
-								<span class="patent-id">US12194627</span>
-								<span class="patent-title">Modular robotic manipulation systems</span>
-							</div>
-							<div class="patent">
-								<span class="patent-id">US11865727</span>
-								<span class="patent-title">Robotic picking assemblies with different concurrent flow rates</span>
-							</div>
-							<div class="patent">
-								<span class="patent-id">US11623339</span>
-								<span class="patent-title">Portable robotic manipulation systems</span>
-							</div>
-							<div class="patent">
-								<span class="patent-id">US11534923</span>
-								<span class="patent-title">Robotic manipulation and frame sensor placement for in-motion object modeling</span>
-							</div>
-						</div>
-
-						<h5 class="patent-category">Safety & Calibration</h5>
-						<div class="patent-list">
-							<div class="patent">
-								<span class="patent-id">US11912513</span>
-								<span class="patent-title">Robotic system camera calibration and localization using robot-mounted registered patterns</span>
-							</div>
-							<div class="patent">
-								<span class="patent-id">US11279035</span>
-								<span class="patent-title">LIDAR safety rings</span>
-							</div>
-						</div>
-					</section>
-
-				<!-- Publications -->
-					<section id="research">
-						<h5 class="section-label">Publications</h5>
-
-						<div class="publication">
-							<h4><a href="https://www.amazon.science/code-and-datasets/amazon-robotic-manipulation-benchmark-armbench">ARMBench &mdash; Amazon Robotic Manipulation Benchmark</a></h4>
-							<p class="pub-authors">Chaitanya Mitash, Fan Wang, Shiyang Lu, Vikedo Terhuja, Tyler Garaas, Felipe Polido, Manikantan Nambi, ICRA 2023.</p>
-						</div>
-
-						<div class="publication">
-							<h4><a href="https://www.cs.cmu.edu/~cga/drc/door-submitted.pdf">Human-Supervised Control of the ATLAS Humanoid Robot for Traversing Doors</a></h4>
-							<p class="pub-authors">Nandan Banerjee, Xianchao Long, Ruixiang Du, Felipe Polido, Siyuan Feng, Christopher Atkeson, Michael Gennert, Taskin Padir, IEEE Humanoids 2015.</p>
-						</div>
-
-						<div class="publication">
-							<h4>Team WPI-CMU: achieving reliable humanoid behavior in the DARPA Robotics Challenge</h4>
-							<p class="pub-authors">Christopher G. Atkeson, Benzun P. W. Babu, Nandan Banerjee, et al. including Felipe Polido, Journal of Field Robotics.</p>
-						</div>
-
-						<div class="publication">
-							<h4><a href="https://www.mattdedonato.com/files/publications/human_in_the_loop_control.pdf">Human-in-the-loop Control of a Humanoid Robot for Disaster Response</a></h4>
-							<p class="pub-authors">DeDonato, M., Dimitrov, V., Du, R., et al. including Polido, F., Journal of Field Robotics 2015.</p>
-						</div>
-
-						<div class="publication">
-							<h4><a href="https://www.cs.cmu.edu/~cga/drc/paper14.pdf">NO FALLS, NO RESETS: Reliable humanoid behavior in the DARPA Robotics Challenge</a></h4>
-							<p class="pub-authors">Christopher G. Atkeson et al. including Felipe Polido, 15th IEEE-RAS International Conference on Humanoid Robots (2015).</p>
-						</div>
-
-						<div class="publication">
-							<h4><a href="https://www.cs.cmu.edu/~cga/drc/jfr-what.pdf">What Happened at the DARPA Robotics Challenge, and Why?</a></h4>
-							<p class="pub-authors">Christopher G. Atkeson et al. including Felipe Polido, DRC Finals Special Issue of the Journal of Field Robotics (2015).</p>
-						</div>
-					</section>
-
-				<!-- CTA -->
-					<section id="contact">
-						<h5 class="section-label">Get in touch</h5>
-						<p>Interested in Reframe Systems, robotics, or just want to connect? Reach me at <a href="mailto:felipe.polido@gmail.com">felipe.polido@gmail.com</a> or find me on <a href="https://www.linkedin.com/in/felipepolido/">LinkedIn</a>.</p>
-					</section>
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/in/felipepolido/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://github.com/felipepolido" class="icon fa-github"><span class="label">Github</span></a></li>
-					<li><a href="mailto:felipe.polido@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-				</ul>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('a.yt');
+  if(!a||location.protocol.indexOf('http')!==0)return;
+  e.preventDefault();
+  var f=document.createElement('iframe'),src=a.getAttribute('data-embed');
+  f.src=src+(src.indexOf('?')<0?'?':'&')+'autoplay=1';
+  f.title=a.getAttribute('aria-label');
+  f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+  f.referrerPolicy='strict-origin-when-cross-origin';
+  f.allowFullscreen=true;
+  a.parentNode.replaceChild(f,a);
+});
+</script>
+</body>
 </html>
